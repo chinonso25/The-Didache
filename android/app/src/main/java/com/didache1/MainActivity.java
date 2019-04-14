@@ -1,4 +1,4 @@
-package com.thedidache;
+package com.didache1;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "TheDidache";
+        return "Didache1";
     }
 }

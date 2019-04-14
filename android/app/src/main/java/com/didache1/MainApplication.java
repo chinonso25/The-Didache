@@ -1,4 +1,4 @@
-package com.thedidache;
+package com.didache1;
 
 import android.app.Application;
 

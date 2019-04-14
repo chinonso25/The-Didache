@@ -102,7 +102,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.thedidache"
+        applicationId "com.didache1"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
