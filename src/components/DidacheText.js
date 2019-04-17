@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import { Container, Content, Accordion } from "native-base";
-import DidacheHeader from './DidacheHeader';
-import DFooter from './DFooter';
+import DidacheHeader from "./DidacheHeader";
+import DFooter from "./DFooter";
 
 const dataArray = [
-  { title: "Chapter 1", content: `1. There are two Ways, one of Life and one of Death, and there is a great difference between the two Ways.
+  {
+    title: "Chapter 1",
+    content: `1. There are two Ways, one of Life and one of Death, and there is a great difference between the two Ways.
 
 2. The way of life is this:" First, you shalt love the God who made thee, secondly, thy neighbor as thyself; and whatsoever thou wouldst not have done to thyself, do not thou to another."
 
@@ -14,9 +16,11 @@ const dataArray = [
 
 5. Give to everyone that asks thee, and do not refuse, for the Father's will is that we give to all from the gifts we have received. Blessed is he that gives according to the mandate; for he is innocent; but he who receives it without need shall be tried as to why he took and for what, and being in prison he shall be examined as to his deeds, and "he shall not come out thence until he pay the last farthing."
 
-6. But concerning this it was also said, "Let thine alms sweat into thine hands until thou knowest to whom thou art giving."`}
- ,
-  { title: "Chapter 2", content: `1. But the second commandment of the teaching is this:
+6. But concerning this it was also said, "Let thine alms sweat into thine hands until thou knowest to whom thou art giving."`
+  },
+  {
+    title: "Chapter 2",
+    content: `1. But the second commandment of the teaching is this:
 
 2. "Thou shalt do no murder; thou shalt not commit adultery"; thou shalt not commit sodomy; thou shalt not commit fornication; thou shalt not steal; thou shalt not use magic; thou shalt not use philtres; thou shalt not procure abortion, nor commit infanticide; "thou shalt not covet thy neighbor's goods";
 
@@ -29,8 +33,10 @@ const dataArray = [
 6. Thou shalt not be covetous nor extortionate, nor a hypocrite, nor malignant, nor proud, thou shalt make no evil plan against thy neighbor.
 
 7. Thou shalt hate no man; but some thou shalt reprove, and for some shalt thou pray, and some thou shalt love more then thine own life.`
- },
- { title: "Chapter 3", content: `1. My child, flee from every evil man and from all like him.
+  },
+  {
+    title: "Chapter 3",
+    content: `1. My child, flee from every evil man and from all like him.
 
 2. Be not proud, for pride leads to murder, nor jealous, nor contentious, nor passionate, for from all these murders are engendered.
 
@@ -48,8 +54,11 @@ const dataArray = [
 
 9. Thou shalt not exalt thyself, nor let thy soul be presumptuous. Thy soul shall not consort with the lofty, but thou shalt walk with righteous and humble men.
 
-10. Receive the accidents that befall to thee as good, knowing that nothing happens without God.`},
-  { title: "Chapter 4", content: `1. My child, thou shalt remember, day and night, him who speaks the word of God to thee, and thou shalt honor him as the Lord, for where the Lord's nature is spoken of, there is he present.
+10. Receive the accidents that befall to thee as good, knowing that nothing happens without God.`
+  },
+  {
+    title: "Chapter 4",
+    content: `1. My child, thou shalt remember, day and night, him who speaks the word of God to thee, and thou shalt honor him as the Lord, for where the Lord's nature is spoken of, there is he present.
 
 2. And thou shalt seek daily the presence of the saints, that thou mayest find rest in their words.
 
@@ -75,29 +84,44 @@ const dataArray = [
 
 13. Thou shalt not forsake the commandments of the Lord, but thou shalt keep what thou didst receive, "Adding nothing to it and taking nothing away."
 
-14. In the congregation thou shalt confess thy transgressions, and thou shalt not betake thyself to prayer with an evil conscience. This is the way of life.`},
-{ title: "Chapter 5", content: `1. But the Way of Death is this: First of all, it is wicked and full of cursing, murders, adulteries, lusts, fornications, thefts, idolatries, witchcrafts, charms, robberies, false witness, hypocrisies, a double heart, fraud, pride, malice, stubbornness, covetousness, foul speech, jealousy, impudence, haughtiness, boastfulness.
+14. In the congregation thou shalt confess thy transgressions, and thou shalt not betake thyself to prayer with an evil conscience. This is the way of life.`
+  },
+  {
+    title: "Chapter 5",
+    content: `1. But the Way of Death is this: First of all, it is wicked and full of cursing, murders, adulteries, lusts, fornications, thefts, idolatries, witchcrafts, charms, robberies, false witness, hypocrisies, a double heart, fraud, pride, malice, stubbornness, covetousness, foul speech, jealousy, impudence, haughtiness, boastfulness.
 
-2. Persecutors of the good, haters of truth, lovers of lies, knowing not the reward of righteousness, not cleaving to the good nor to righteous judgment, spending wakeful nights not for good but for wickedness, from whom meekness and patience is far, lovers of vanity, following after reward, unmerciful to the poor, not working for him who is oppressed with toil, without knowledge of him who made them, murderers of children, corrupters of God's creatures, turning away the needy, oppressing the distressed, advocates of the rich, unjust judges of the poor, altogether sinful; may ye be delivered, my children, from all these.`},
-{ title: "Chapter 6", content: `1. See "that no one make thee to err" from this Way of the teaching, for he teaches thee without God.
+2. Persecutors of the good, haters of truth, lovers of lies, knowing not the reward of righteousness, not cleaving to the good nor to righteous judgment, spending wakeful nights not for good but for wickedness, from whom meekness and patience is far, lovers of vanity, following after reward, unmerciful to the poor, not working for him who is oppressed with toil, without knowledge of him who made them, murderers of children, corrupters of God's creatures, turning away the needy, oppressing the distressed, advocates of the rich, unjust judges of the poor, altogether sinful; may ye be delivered, my children, from all these.`
+  },
+  {
+    title: "Chapter 6",
+    content: `1. See "that no one make thee to err" from this Way of the teaching, for he teaches thee without God.
 
 2. For if thou canst bear the whole yoke of the Lord, thou wilt be perfect, but if thou canst not, do what thou canst.
 
-3. And concerning food, bear what thou canst, but keep strictly from that which is offered to idols, for it is the worship of dead gods.`},
-{ title: "Chapter 7", content: `1. Concerning baptism, baptise thus: Having first rehearsed all these things, "baptise, in the Name of the Father and of the Son and of the Holy Ghost," in running water;
+3. And concerning food, bear what thou canst, but keep strictly from that which is offered to idols, for it is the worship of dead gods.`
+  },
+  {
+    title: "Chapter 7",
+    content: `1. Concerning baptism, baptise thus: Having first rehearsed all these things, "baptise, in the Name of the Father and of the Son and of the Holy Ghost," in running water;
 
 2. But if thou hast no running water, baptise in other water, and if thou canst not in cold, then in warm.
 
 3. But if thou hast neither, pour water three times on the head "in the Name of the Father, Son and Holy Ghost."
 
-4. And before the baptism let the baptiser and him who is to be baptised fast, and any others who are able. And thou shalt bid him who is to be baptised to fast one or two days before.` },
-{ title: "Chapter 8", content: `1. Let not your fasts be with the hypocrites, for they fast on Mondays and Thursdays, but do you fast on Wednesdays and Fridays.
+4. And before the baptism let the baptiser and him who is to be baptised fast, and any others who are able. And thou shalt bid him who is to be baptised to fast one or two days before.`
+  },
+  {
+    title: "Chapter 8",
+    content: `1. Let not your fasts be with the hypocrites, for they fast on Mondays and Thursdays, but do you fast on Wednesdays and Fridays.
 
 2. And do not pray as the hypocrites, but as the Lord commanded in his Gospel, pray thus: "Our Father, who art in Heaven, hallowed be thy Name, thy Kingdom come, thy will be done, as in Heaven so also upon earth; give us today our daily bread, and forgive us our debt as we forgive our debtors, and lead us not into trial, but deliver us from the Evil One, for thine is the power and the glory for ever."
 
-3. Pray thus three times a day.`},
+3. Pray thus three times a day.`
+  },
 
-{ title: "Chapter 9", content: `
+  {
+    title: "Chapter 9",
+    content: `
 1. And concerning the Eucharist, hold Eucharist thus:
 2. First concerning the Cup, "We give thanks to thee, our Father, for the Holy Vine of David thy child, which, thou didst make known to us through Jesus thy Child; to thee be glory for ever."
 
@@ -105,9 +129,12 @@ const dataArray = [
 
 4. As this broken bread was scattered upon the mountains, but was brought together and became one, so let thy Church be gathered together from the ends of the earth into thy kingdom, for thine is the glory and the power through Jesus Christ for ever."
 
-5. But let none eat or drink of your Eucharist except those who have been baptised in the Lord's Name. For concerning this also did the Lord say, "Give not that which is holy to the dogs."`},
+5. But let none eat or drink of your Eucharist except those who have been baptised in the Lord's Name. For concerning this also did the Lord say, "Give not that which is holy to the dogs."`
+  },
 
-{ title: "Chapter 10", content: `1. But after you are satisfied with food, thus give thanks:
+  {
+    title: "Chapter 10",
+    content: `1. But after you are satisfied with food, thus give thanks:
 
 2. "We give thanks to thee, O Holy Father, for thy Holy Name which thou didst make to tabernacle in out hearts, and for the knowledge and faith and immortality which thou didst make known to us through Jesus thy Child. To thee be glory for ever.
 
@@ -119,9 +146,12 @@ const dataArray = [
 
 6. Let grace come and let this world pass away. Hosannah to the God of David. If any man be holy, let him come! if any man be not, let him repent: Maranatha ("Our Lord! Come!"), Amen."
 
-7. But suffer the prophets to hold Eucharist as they will.`},
+7. But suffer the prophets to hold Eucharist as they will.`
+  },
 
-{ title: "Chapter 11", content: `1. Whosoever then comes and teaches you all these things aforesaid, receive him.
+  {
+    title: "Chapter 11",
+    content: `1. Whosoever then comes and teaches you all these things aforesaid, receive him.
 
 2. But if the teacher himself be perverted and teach another doctrine to destroy these things, do not listen to him, but if his teaching be for the increase of righteousness and knowledge of the Lord, receive him as the Lord.
 
@@ -143,9 +173,12 @@ const dataArray = [
 
 11. But no prophet who has been tried and is genuine, though he enact a worldly mystery of the Church, if he teach not others to do what he does himself, shall be judged by you: for he has his judgment with God, for so also did the prophets of old.
 
-12. But whosoever shall say in a spirit "Give me money, or something else," you shall not listen to him; but if he tell you to give on behalf of others in want, let none judge him.` },
+12. But whosoever shall say in a spirit "Give me money, or something else," you shall not listen to him; but if he tell you to give on behalf of others in want, let none judge him.`
+  },
 
-{ title: "Chapter 12", content: `1. Let everyone who "comes in the Name of the Lord" be received; but when you have tested him you shall know him, for you shall have understanding of true and false.
+  {
+    title: "Chapter 12",
+    content: `1. Let everyone who "comes in the Name of the Lord" be received; but when you have tested him you shall know him, for you shall have understanding of true and false.
 
 2. If he who comes is a traveller, help him as much as you can, but he shall not remain with you more than two days, or, if need be, three.
 
@@ -153,9 +186,12 @@ const dataArray = [
 
 4. But if he has no craft provide for him according to your understanding, so that no man shall live among you in idleness because he is a Christian.
 
-5. But if he will not do so, he is making traffic of Christ; beware of such.` },
+5. But if he will not do so, he is making traffic of Christ; beware of such.`
+  },
 
-{ title: "Chapter 13", content: `1. But every true prophet who wishes to settle among you is "worthy of his food."
+  {
+    title: "Chapter 13",
+    content: `1. But every true prophet who wishes to settle among you is "worthy of his food."
 
 2. Likewise a true teacher is himself worthy, like the workman, of his food.
 
@@ -167,23 +203,32 @@ const dataArray = [
 
 6. Likewise when thou openest a jar of wine or oil, give the firstfruits to the prophets.
 
-7. Of money also and clothes, and of all your possessions, take the firstfruits, as it seem best to you, and give according to the commandment.`},
+7. Of money also and clothes, and of all your possessions, take the firstfruits, as it seem best to you, and give according to the commandment.`
+  },
 
-{ title: "Chapter 14", content: `1. On the Lord's Day of the Lord come together, break bread and hold Eucharist, after confessing your transgressions that your offering may be pure;
+  {
+    title: "Chapter 14",
+    content: `1. On the Lord's Day of the Lord come together, break bread and hold Eucharist, after confessing your transgressions that your offering may be pure;
 
 2. But let none who has a quarrel with his fellow join in your meeting until they be reconciled, that your sacrifice be not defiled.
 
-3. For this is that which was spoken by the Lord, "In every place and time offer me a pure sacrifice, for I am a great king," saith the Lord, "and my name is wonderful among the heathen."`},
+3. For this is that which was spoken by the Lord, "In every place and time offer me a pure sacrifice, for I am a great king," saith the Lord, "and my name is wonderful among the heathen."`
+  },
 
-{ title: "Chapter 15", content: `1. Appoint therefore for yourselves bishops and deacons worthy of the Lord, meek men, and not lovers of money, and truthful and approved, for they also minister to you the ministry of the prophets and teachers.
+  {
+    title: "Chapter 15",
+    content: `1. Appoint therefore for yourselves bishops and deacons worthy of the Lord, meek men, and not lovers of money, and truthful and approved, for they also minister to you the ministry of the prophets and teachers.
 
 2. Therefore do not despise them, for they are your honourable men together with the prophets and teachers.
 
 3. And reprove one another not in wrath but in peace as you find in the Gospel, and let none speak with any who has done wrong to his neighbour, nor let him hear a word from you until he repents.
 
-4. But your prayers and alms and all your acts perform as ye find in the Gospel of our Lord.`},
+4. But your prayers and alms and all your acts perform as ye find in the Gospel of our Lord.`
+  },
 
-{ title: "Chapter 16", content: `1. "Watch" over your life "let your lamps" be not quenched "and your loins" be not ungirded, but be "ready," for ye know not "the hour in which our Lord cometh."
+  {
+    title: "Chapter 16",
+    content: `1. "Watch" over your life "let your lamps" be not quenched "and your loins" be not ungirded, but be "ready," for ye know not "the hour in which our Lord cometh."
 
 2. But be frequently gathered together seeking the things which are profitable for your souls, for the whole time of your faith shall not profit you except ye be found perfect at the last time;
 
@@ -197,27 +242,22 @@ const dataArray = [
 
 7. But not of all the dead, but as it was said, "The Lord shall come and all his saints with him."
 
-8. Then shall the world "see the Lord coming on the clouds of Heaven."` }
-
-
-
-];
-const DidacheText = () =>  {
-    return (
-      <Container>
-        <DidacheHeader />
-        <Content padder>
-          <Accordion
-            dataArray={dataArray}
-            headerStyle={{ backgroundColor: "#b7daf8" }}
-            contentStyle={{ backgroundColor: "#ddecf8" }}
-          />
-
-        </Content>
-      </Container>
-
-    );
+8. Then shall the world "see the Lord coming on the clouds of Heaven."`
   }
-
+];
+const DidacheText = () => {
+  return (
+    <Container>
+      <DidacheHeader />;
+      <Content padder>
+        <Accordion
+          dataArray={dataArray}
+          headerStyle={{ backgroundColor: "#b7daf8" }}
+          contentStyle={{ backgroundColor: "#ddecf8" }}
+        />
+      </Content>
+    </Container>
+  );
+};
 
 export default DidacheText;
