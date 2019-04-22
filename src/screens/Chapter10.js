@@ -26,7 +26,7 @@ export default class Chapter10 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. But after you are satisfied with food, thus give thanks:
                   {"\n"}
                   {"\n"}

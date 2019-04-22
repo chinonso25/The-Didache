@@ -44,27 +44,27 @@ export default class MenuDrawer extends React.Component {
           </View>
           <View style={styles.bottomLinks}>
             {this.navLink("Home", "Home")}
-            {this.navLink("Chapter1", "Chapter1")}
-            {this.navLink("Chapter2", "Chapter2")}
-            {this.navLink("Chapter3", "Chapter3")}
-            {this.navLink("Chapter4", "Chapter4")}
-            {this.navLink("Chapter5", "Chapter5")}
-            {this.navLink("Chapter6", "Chapter6")}
-            {this.navLink("Chapter7", "Chapter7")}
-            {this.navLink("Chapter8", "Chapter8")}
-            {this.navLink("Chapter9", "Chapter9")}
-            {this.navLink("Chapter10", "Chapter10")}
-            {this.navLink("Chapter11", "Chapter11")}
-            {this.navLink("Chapter12", "Chapter12")}
-            {this.navLink("Chapter13", "Chapter13")}
-            {this.navLink("Chapter14", "Chapter14")}
-            {this.navLink("Chapter15", "Chapter15")}
-            {this.navLink("Chapter16", "Chapter16")}
+            {this.navLink("Chapter1", "Chapter 1")}
+            {this.navLink("Chapter2", "Chapter 2")}
+            {this.navLink("Chapter3", "Chapter 3")}
+            {this.navLink("Chapter4", "Chapter 4")}
+            {this.navLink("Chapter5", "Chapter 5")}
+            {this.navLink("Chapter6", "Chapter 6")}
+            {this.navLink("Chapter7", "Chapter 7")}
+            {this.navLink("Chapter8", "Chapter 8")}
+            {this.navLink("Chapter9", "Chapter 9")}
+            {this.navLink("Chapter10", "Chapter 10")}
+            {this.navLink("Chapter11", "Chapter 11")}
+            {this.navLink("Chapter12", "Chapter 12")}
+            {this.navLink("Chapter13", "Chapter 13")}
+            {this.navLink("Chapter14", "Chapter 14")}
+            {this.navLink("Chapter15", "Chapter 15")}
+            {this.navLink("Chapter16", "Chapter 16")}
           </View>
         </ScrollView>
         <View style={styles.footer}>
           <Text style={styles.description}>Ude-Net Technologies</Text>
-          <Text style={styles.version}>v1.1</Text>
+          <Text style={styles.version}>v1.15</Text>
         </View>
       </View>
     );
@@ -105,8 +105,7 @@ const styles = StyleSheet.create({
   },
   img: {
     height: 70,
-    width: 70,
-    borderRadius: 50
+    width: 70
   },
   topLinks: {
     height: 160,

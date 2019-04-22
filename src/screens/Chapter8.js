@@ -26,7 +26,7 @@ export default class Chapter8 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. Let not your fasts be with the hypocrites, for they fast on
                   Mondays and Thursdays, but do you fast on Wednesdays and
                   Fridays.{"\n"}

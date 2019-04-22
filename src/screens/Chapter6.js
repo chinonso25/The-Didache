@@ -26,7 +26,7 @@ export default class Chapter6 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. See "that no one make thee to err" from this Way of the
                   teaching, for he teaches thee without God.{"\n"}
                   {"\n"}

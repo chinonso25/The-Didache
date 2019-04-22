@@ -26,7 +26,7 @@ export default class Chapter15 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. Appoint therefore for yourselves bishops and deacons worthy
                   of the Lord, meek men, and not lovers of money, and truthful
                   and approved, for they also minister to you the ministry of

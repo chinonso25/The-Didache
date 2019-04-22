@@ -26,7 +26,7 @@ export default class Chapterw extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. But the second commandment of the teaching is this:{"\n"}
                   {"\n"}
                   2. "Thou shalt do no murder; thou shalt not commit adultery";

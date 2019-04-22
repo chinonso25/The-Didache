@@ -26,7 +26,7 @@ export default class Chapter5 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. But the Way of Death is this: First of all, it is wicked
                   and full of cursing, murders, adulteries, lusts, fornications,
                   thefts, idolatries, witchcrafts, charms, robberies, false

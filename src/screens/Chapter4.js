@@ -26,7 +26,7 @@ export default class Chapter4 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. My child, thou shalt remember, day and night, him who
                   speaks the word of God to thee, and thou shalt honor him as
                   the Lord, for where the Lord's nature is spoken of, there is

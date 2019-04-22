@@ -26,7 +26,7 @@ export default class Chapter13 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. But every true prophet who wishes to settle among you is
                   "worthy of his food."
                   {"\n"}

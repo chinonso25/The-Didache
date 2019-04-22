@@ -26,7 +26,7 @@ export default class Chapter1 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. There are two Ways, one of Life and one of Death, and there
                   is a great difference between the two Ways.
                   {"\n"}

@@ -26,7 +26,7 @@ export default class Chapter9 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. And concerning the Eucharist, hold Eucharist thus:
                   {"\n"}
                   {"\n"}

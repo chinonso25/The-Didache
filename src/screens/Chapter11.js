@@ -26,7 +26,7 @@ export default class Chapter11 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. Whosoever then comes and teaches you all these things
                   aforesaid, receive him.
                   {"\n"}

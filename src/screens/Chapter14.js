@@ -26,7 +26,7 @@ export default class Chapter14 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. On the Lord's Day of the Lord come together, break bread
                   and hold Eucharist, after confessing your transgressions that
                   your offering may be pure;

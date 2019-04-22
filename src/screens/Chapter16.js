@@ -26,7 +26,7 @@ export default class Chapter16 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. "Watch" over your life "let your lamps" be not quenched
                   "and your loins" be not ungirded, but be "ready," for ye know
                   not "the hour in which our Lord cometh."

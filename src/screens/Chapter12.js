@@ -26,7 +26,7 @@ export default class Chapter12 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. Let everyone who "comes in the Name of the Lord" be
                   received; but when you have tested him you shall know him, for
                   you shall have understanding of true and false.

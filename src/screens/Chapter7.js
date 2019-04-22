@@ -26,7 +26,7 @@ export default class Chapter7 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. Concerning baptism, baptise thus: Having first rehearsed
                   all these things, "baptise, in the Name of the Father and of
                   the Son and of the Holy Ghost," in running water;{"\n"}

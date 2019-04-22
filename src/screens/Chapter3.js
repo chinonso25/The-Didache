@@ -26,7 +26,7 @@ export default class Chapter3 extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>
+                <Text selectable={true}>
                   1. My child, flee from every evil man and from all like him.
                   {"\n"}
                   {"\n"}
