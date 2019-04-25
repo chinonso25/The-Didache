@@ -1,10 +1,11 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 import Ionicons from "react-native-vector-icons/Ionicons";
 
 export default class MenuButton extends React.Component {
   render() {
     return (
+      <SafeAreaView style={{backgroundColor:'#3F51B5'}}>
       <View style={styles.container}>
         <Ionicons
           name="md-menu"
@@ -15,6 +16,7 @@ export default class MenuButton extends React.Component {
         />
         <Text style={styles.heading}>The Didache</Text>
       </View>
+      </SafeAreaView>
     );
   }
 }
