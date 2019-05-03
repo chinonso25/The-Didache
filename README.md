@@ -2,10 +2,6 @@
   <img src="https://raw.githubusercontent.com/chinonso25/The-Didache/master/Screenshots/IOS/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202019-04-29%20at%2013.24.39.png?token=ACEU3IAQLYP7ULYDFIN63VC4ZSLKC">
 </p>
 
-<p align="center">
-  <a href="https://youtu.be/yDjooqhcNt8">Click to view a video demonstration</a>
-  <br/><br/><br/>
-</p>
 
 [![React Native][react_native-badge]][react_native-url]
 [![iOS Platform][ios_platform-badge]][ios_platform-url]
@@ -23,11 +19,6 @@
 - [Xcode](https://developer.apple.com/xcode/) and [Android Studio](https://developer.android.com/studio/index.html).
 - [Homebrew](https://brew.sh/).
 - [Node](https://nodejs.org), [Watchman](https://facebook.github.io/watchman/) and [React Native](https://facebook.github.io/react-native/).
-
-### Optional
-
-- [Atom](https://atom.io/), [Linter](https://atom.io/packages/linter) and [ESLinter](https://atom.io/packages/linter-eslint).
-- [Oh My ZSH!](http://ohmyz.sh/) (add the line `source ~/.bash_profile` to **~/.zshrc** file).
 
 
 ## Enviroment Settings
@@ -94,15 +85,14 @@ react-native run-android
 
 - [x] Text Based
 - [x] Added Native-Base
-- [x] Dark Mode
+- [ ] Dark Mode
 
 
 
 
 ## License
 
-This code is distributed under the terms and conditions of the [MIT](https://github.com/Bruno-Furtado/fastbuy-app/blob/master/LICENSE).
-
+This code is distributed under the terms and conditions of the [MIT]
 
 [react_native-badge]: https://img.shields.io/badge/React%20Native-0.59-blue.svg?style=flat
 [react_native-url]: https://facebook.github.io/react-native/
