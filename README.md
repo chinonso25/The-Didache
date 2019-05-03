@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://fastbuy-fd9d7.firebaseapp.com/images/cover_v2.png" alt="FastBuy" title="FastBuy">
+  <img src="https://raw.githubusercontent.com/chinonso25/The-Didache/master/Screenshots/IOS/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202019-04-29%20at%2013.24.39.png?token=ACEU3IAQLYP7ULYDFIN63VC4ZSLKC">
 </p>
 
 <p align="center">
