@@ -70,7 +70,6 @@ react-native start
 
 ```
 react-native run-ios
-react-native run-ios --simulator "My Simulator (12.1)"
 ```
 
 ### 5. Make sure you have started an emulator and run the app on Android
