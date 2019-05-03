@@ -20,7 +20,7 @@
 ### Mandatory
 
 - MacOS.
-- [Xcode](https://itunes.apple.com/br/app/xcode/id497799835?mt=12) and [Android Studio](https://developer.android.com/studio/index.html).
+- [Xcode](https://developer.apple.com/xcode/) and [Android Studio](https://developer.android.com/studio/index.html).
 - [Homebrew](https://brew.sh/).
 - [Node](https://nodejs.org), [Watchman](https://facebook.github.io/watchman/) and [React Native](https://facebook.github.io/react-native/).
 
@@ -49,17 +49,17 @@ brew install watchman
 npm install -g react-native-cli
 ```
 
-### Optional
-
-- Install [Atom](https://atom.io/) and follow packages: `lint`, `lint-eslint` and `linter-ui-default`.
-
-
 ## Steps to Run
 
 ### 1. Clone project and install the dependencies
 
 ```
-git clone git@github.com:Bruno-Furtado/fastbuy-app.git && cd fastbuy-app && bundle install
+git clone https://github.com/chinonso25/The-Didache.git 
+
+npm install
+
+react-native link
+
 ```
 
 ### 2. Open the project in Android Studio
@@ -88,27 +88,15 @@ react-native run-ios --simulator "My Simulator (12.1)"
 react-native run-android
 ```
 
-## Architecture
 
-<p align="center">
-  <img src="https://fastbuy-fd9d7.firebaseapp.com/images/arch.png" alt="FastBuy Architecture" title="FastBuy Architecture">
-</p>
 
 ## Todolist
 
-- [x] Sign Up and Authentication
-- [x] Create a Product
-- [x] Product List
-- [x] Delete a Product
-- [x] Edit a Product
-- [x] Camera
-- [x] Redux framework
-- [x] Firebase Integration (Analytics, Auth, Database, Crashlytics and Performance)
-- [x] Translation (with [react-native-languages](https://github.com/react-community/react-native-languages))
+- [x] Text Based
+- [x] Added Native-Base
+- [x] Dark Mode
 
-## Change-log
 
-A brief summary of each [FastBuy](https://github.com/Bruno-Furtado/fastbuy-app) release can be found on the [releases](https://github.com/Bruno-Furtado/fastbuy-app/releases).
 
 
 ## License
